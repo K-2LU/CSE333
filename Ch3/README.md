@@ -8,7 +8,7 @@ __Query:__
     where dept_name = "Comp. Sci." and credits = 3
 ```
 __Result:__   
-<img src = ".\3.1.a.png" class = "center" alt = "3.1.a_query">
+<img src = ".\images\3.1.a.png" class = "center" alt = "3.1.a_query">
    
 ### b.Find the IDs of all students who were taught by an instructor named Einstein; make sure there are no duplicates in the reesult.
 
@@ -21,7 +21,7 @@ __Query:__
         takes.course_id = teaches.course_id
 ```
 __Result:__   
-<img src = ".\3.1.b.png" class = "center" alt = "3.1.b_query">   
+<img src = ".\images\3.1.b.png" class = "center" alt = "3.1.b_query">   
 
 ### c. Find the highest salary of any instructor.
 __Query:__
@@ -29,7 +29,7 @@ __Query:__
     select max(salary) as max_salary from instructor
 ```
 __Result:__   
-<img src = ".\3.1.c.png" class = "center" alt = "3.1.c_query">
+<img src = ".\images\3.1.c.png" class = "center" alt = "3.1.c_query">
 
 ### d. Find all instructors earning the highest salary (there may be more than one with the same salary).
 
@@ -39,7 +39,7 @@ __Query:__
     where salary = (select max(salary) from instructor)
 ```
 __Result:__   
-<img src = ".\3.1.d.png" class = "center" alt = "3.1.d_query">
+<img src = ".\images\3.1.d.png" class = "center" alt = "3.1.d_query">
 
 ### e. Find the enrollment of each section that was offered in Fall 2017.
 __Query:__
@@ -56,7 +56,7 @@ __Query:__
 	and year = 2017
 ```
 __Result:__   
-<img src = ".\3.1.e.png" class = "center" alt = "3._query">
+<img src = ".\images\3.1.e.png" class = "center" alt = "3.1.e_query">
 
 ### f. Find the maximum enrollment, across all sections, in Fall 2017.
 __Query:__
@@ -73,12 +73,19 @@ __Query:__
         )
 ```
 __Result:__   
-<img src = ".\3.1.f.png" class = "center" alt = "3._query">
+<img src = ".\images\3.1.f.png" class = "center" alt = "3.1.f_query">
 
+### g. Find the sections that had the maximum enrollment in Fall 2017.
+__Query:__
+``` sql
+    
+```
+__Result:__   
+<img src = ".\images\3.png" class = "center" alt = "3._query">
 
 ### template   
 __Query:__
 ``` sql
 ```
 __Result:__   
-<img src = ".\3.png" class = "center" alt = "3._query">
+<img src = ".\images\.png" class = "center" alt = "._query">
