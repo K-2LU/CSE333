@@ -88,7 +88,7 @@ __Query:__
 ``` sql
 ```
 __Result:__   
-<img src = ".\images\3.19.png" class = "center" alt = "3.19._query">
+<img src = ".\images\3.19.PNG" class = "center" alt = "3.19._query">
 
 <p> <font size = "4">3.21 Consider the library database of Figure 3.20. Write the following queries in SQL.</font> <p>
 
@@ -184,7 +184,7 @@ __Query:__
 
 ```
 __Result:__   
-<img src = ".\images\3.22.png" class = "center" alt = "3.22._query">
+<img src = ".\images\3.22.PNG" class = "center" alt = "3.22._query">
 
 ### 3.23 Consider the query:
 ```
@@ -211,7 +211,7 @@ __Query:__
     WHERE dept_total.value >= dept_total_avg.value
 ```
 __Result:__   
-<img src = ".\images\3.23.png" class = "center" alt = "3.23._query">
+<img src = ".\images\3.23.PNG" class = "center" alt = "3.23._query">
 
 ### 3.24. Using the university schema, write an SQL query to find the name and ID of those Accounting students advised by an instructor in the Physics department.   
 __Query:__
@@ -223,7 +223,7 @@ __Query:__
     WHERE s.dept_name = 'Accounting' AND i.dept_name = 'Physics';
 ```
 __Result:__   
-<img src = ".\images\3.24.png" class = "center" alt = "3.24._query">
+<img src = ".\images\3.24.PNG" class = "center" alt = "3.24._query">
 
 ### 3.25. Using the university schema, write an SQL query to find the names of those departments whose budget is higher than that of Philosophy. List them in alphabetic order.  
 __Query:__
@@ -235,7 +235,7 @@ __Query:__
     ORDER BY dept_name ASC;
 ```
 __Result:__   
-<img src = ".\images\3.25.png" class = "center" alt = "3.25._query">
+<img src = ".\images\3.25.PNG" class = "center" alt = "3.25._query">
 
 ### 3.26. Using the university schema, use SQL to do the following: For each student who has retaken a course at least twice (i.e., the student has taken the course at least three times), show the course ID and the student's ID. Please display your results in order of course ID and do not display duplicate rows
 __Query:__
@@ -253,7 +253,7 @@ __Query:__
     )
 ```
 __Result:__   
-<img src = ".\images\3.26.png" class = "center" alt = "3.26._query">
+<img src = ".\images\3.26.PNG" class = "center" alt = "3.26._query">
 
 ### 3.27. Using the university schema, write an SQL query to find the IDs of those students who have retaken at least three distinct courses at least once (i.e, the student has taken the course at least two times).
 __Query:__
@@ -270,7 +270,7 @@ __Query:__
     HAVING COUNT(*) >= 3;
 ```
 __Result:__   
-<img src = ".\images\3.27.png" class = "center" alt = "3.37._query">
+<img src = ".\images\3.27.PNG" class = "center" alt = "3.37._query">
 
 ### 3.28. Using the university schema, write an SQL query to find the names and IDs of those instructors who teach every course taught in his or her department (i.e., every course that appears in the course relation with the instructor’s department name). Order result by name.   
 __Query:__
@@ -289,7 +289,7 @@ __Query:__
     ORDER BY name;
 ```
 __Result:__   
-<img src = ".\images\3.28.png" class = "center" alt = "3.28._query">
+<img src = ".\images\3.28.PNG" class = "center" alt = "3.28._query">
 
 ### 3.29. Using the university schema, write an SQL query to find the name and ID of each History student whose name begins with the letter 'D' and who has not taken at least five Music courses.   
 __Query:__
@@ -306,7 +306,7 @@ __Query:__
 
 ```
 __Result:__   
-<img src = ".\images\3.29.png" class = "center" alt = "3.29._query">
+<img src = ".\images\3.29.PNG" class = "center" alt = "3.29._query">
 
 ### 3.30 Consider the following SQL query on the university schema:
 ```
@@ -318,7 +318,7 @@ __Query:__
 ``` sql
 ```
 __Result:__   
-<img src = ".\images\3.30.png" class = "center" alt = "3.30._query">
+<img src = ".\images\3.30.PNG" class = "center" alt = "3.30._query">
 
 ### 3.31 Using the university schema, write an SQL query to find the ID and name of each instructor who has never given an A grade in any course she or he has taught. (Instructors who have never taught a course trivially satisfy this condition.)  
 __Query:__
@@ -334,7 +334,7 @@ __Query:__
     )
 ```
 __Result:__   
-<img src = ".\images\3.31.png" class = "center" alt = "3.31._query">
+<img src = ".\images\3.31.PNG" class = "center" alt = "3.31._query">
 
 ### 3.32 Rewrite the preceding query, but also ensure that you include only instructors who have given at least one other non-null grade in some course.   
 __Query:__
@@ -358,7 +358,7 @@ __Query:__
     ) >= 1
 ```
 __Result:__   
-<img src = ".\images\3.32.png" class = "center" alt = "3.32._query">
+<img src = ".\images\3.32.PNG" class = "center" alt = "3.32._query">
 
 ### 3.33 Using the university schema, write an SQL query to find the ID and title of each course in Comp. Sci. that has had at least one section with afternoon hours (i.e., ends at or after 12:00). (You should eliminate duplicates if any.)  
 __Query:__
@@ -375,7 +375,7 @@ __Query:__
     )
 ```
 __Result:__   
-<img src = ".\images\3.33.png" class = "center" alt = "3.33._query">
+<img src = ".\images\3.33.PNG" class = "center" alt = "3.33._query">
 
 ### 3.34 Using the university schema, write an SQL query to find the number of students in each section. The result columns should appear in the order “courseid, secid, year, semester, num”. You do not need to output sections with 0 students.  
 __Query:__
@@ -386,7 +386,7 @@ __Query:__
     GROUP BY course_id, sec_id, year, semester;
 ```
 __Result:__   
-<img src = ".\images\3.34.png" class = "center" alt = "3.34._query">
+<img src = ".\images\3.34.PNG" class = "center" alt = "3.34._query">
 
 ### 3.35 Using the university schema, write an SQL query to find section(s) with maximum enrollment. The result columns should appear in the order “courseid, secid, year, semester, num”. (It may be convenient to use the with construct.)  
 __Query:__
@@ -406,4 +406,4 @@ __Query:__
 ``` sql
 ```
 __Result:__   
-<img src = ".\images\.png" class = "center" alt = "._query">
+<img src = ".\images\.PNG" class = "center" alt = "._query">
