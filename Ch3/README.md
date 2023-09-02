@@ -401,6 +401,9 @@ __Query:__
     FROM section_student_frequency
     WHERE num = (SELECT MAX(num) FROM section_student_frequency);
 ```
+__Result:__   
+<img src = ".\images\3.35.PNG" class = "center" alt = "3.35._query">
+
 ### template   
 __Query:__
 ``` sql
